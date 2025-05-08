@@ -1,3 +1,5 @@
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.DB.DBConnect" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -5,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Reducation: Index</title>
-<%@include file="all_component/allCss.jsp"%>
+<%@include file="all_component/allCss.jsp"%> 
 <style type="text/css">
 .back-img {
 	background: url("img/book.jpg");
@@ -19,11 +21,12 @@
 	background-color: #fcf7f7;
 }
 </style>
+
 </head>
 <body style="background-color: #f7f7f7;">
 	<%@include file="all_component/navbar.jsp"%>
 	<div class="container-fluid back-img">
-		<h2 class="text-center text-danger">Readucation</h2>
+		<h2 class="text-center text-danger">Happy Purchase</h2>
 	</div>
 	<div class="container">
 		<h3 class="text-center">Recent Book</h3>
@@ -44,6 +47,8 @@
 					</div>
 				</div>
 			</div>
+
+
 
 			<div class="col-md-3">
 				<div class="card crd-ho">
